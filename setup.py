@@ -28,6 +28,7 @@ setup(
     entry_points={
         'console_scripts': [
             'motion_detector = akros2_base.motion_detector:main',
+            'diff_drive = akros2_base.diff_drive:main',
         ],
     },
 )

@@ -4,4 +4,4 @@ tof_imager:
         resolution: 8 # [4 (4x4), 8 (8x8)]
         mode: 1 # [1 (continuous), 3 (autonomous)]
         ranging_freq: 15 # limited to 15Hz if resolution is 8x8, else 60Hz
-        timer_period: 0.1
+        timer_period: 0.05
